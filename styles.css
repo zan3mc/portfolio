@@ -1,0 +1,203 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header {
+    background: #BFD7EA;
+    color: #75B3E6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+
+    
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    margin: 0 15px;
+}
+
+.list-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+.h-link {
+    color: #5189b6;
+    text-decoration: none;
+}
+
+.h-link:hover {
+    color: #6d53b3;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.view-code {
+    padding: 10px;
+    background: #75B3E6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.view-code:hover {
+    background: #4cae4c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #BFD7EA;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill:hover {
+    background: #eaeaea;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for the top row */
+    gap: 10px; /* Space between grid items */
+}
+
+.pythonskill {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.sqlskill {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.htmlskill {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.cssskill {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.jsskill {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.javaskill {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.djangoskill {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.springskill {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.bootstrapskill {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive adjustment for 3 columns on smaller screens */
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for the bottom row */
+    }
+}
